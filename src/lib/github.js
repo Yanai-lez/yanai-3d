@@ -2,7 +2,7 @@
 // הטוקן מתקבל מפענוח הקובץ המוצפן (אימייל + סיסמה) ולא נמצא בקוד.
 import { ensureIds } from "./merge.js";
 
-export const REPO = { owner: "lezyanai-lab", repo: "yanai-3d", branch: "main" };
+export const REPO = { owner: "Yanai-lez", repo: "yanai-3d", branch: "main" };
 // קבצי הנתונים יושבים בתיקייה content (ולא ב-src), כדי שעדכוני קוד לעולם לא ידרסו אותם
 export const FILES = {
   products: "content/products.json",

@@ -6,7 +6,7 @@ import fs from "node:fs/promises";
 import { stdin as input, stdout as output } from "node:process";
 
 const ITER = 600000;
-const REPO = "lezyanai-lab/yanai-3d";
+const REPO = "Yanai-lez/yanai-3d";
 const b64 = (u8) => Buffer.from(u8).toString("base64");
 
 const rl = readline.createInterface({ input, output });
